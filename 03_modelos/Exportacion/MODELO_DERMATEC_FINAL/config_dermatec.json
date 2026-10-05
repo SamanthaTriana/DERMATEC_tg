@@ -1,0 +1,106 @@
+{
+  "nombre": "DERMATEC_Z18+Z19",
+  "modelos": [
+    {
+      "id": "Z.18",
+      "archivo": "Z.18_effnetv2b0_384px_fp16.tflite",
+      "img_size": 384,
+      "tta": false
+    },
+    {
+      "id": "Z.19",
+      "archivo": "Z.19_mobilenetv3l_384px_fp16.tflite",
+      "img_size": 384,
+      "tta": true
+    }
+  ],
+  "tta": true,
+  "clases": [
+    "Nevo",
+    "Melanoma",
+    "Carcinoma basocelular",
+    "Carcinoma escamocelular"
+  ],
+  "sesgo": [
+    0.0,
+    0.15000000000000147,
+    1.3322676295501878e-15,
+    -0.44999999999999907
+  ],
+  "umbral_p_maligno": 0.5449999999999996,
+  "entropia_p95_bits": 1.2611204385757446,
+  "calidad": {
+    "modo": "advertencia",
+    "entropia_max_bits": 1.2611204385757446,
+    "area_lesion_max": 0.6,
+    "bordes_tocados_max": 1
+  },
+  "regla_salida": "BENIGNA → Nevo; MALIGNA → argmax(log p + sesgo) entre Melanoma, BCC y SCC",
+  "seleccion": {
+    "regla": "Validation; ensamble solo si supera al mejor individual en ≥ 0,005",
+    "val_macro_f1": {
+      "Z.18": 0.8496020258209085,
+      "Z.19": 0.8483789044276092,
+      "Z.18 + Z.19": 0.8553959679786889
+    }
+  },
+  "metricas": {
+    "Train": {
+      "n": 12994.0,
+      "accuracy": 0.9991534554409728,
+      "macro_f1": 0.999226347682546,
+      "balanced_acc": 0.9993162665184999,
+      "bin_accuracy": 0.999230414037248,
+      "bin_f1": 0.9993541720485662,
+      "bin_sens": 0.9993541720485662,
+      "bin_espec": 0.9990479817212491,
+      "bin_auc": 0.9999925604358222,
+      "F1_Nevo": 0.9990479817212491,
+      "F1_Melanoma": 0.9985114617445668,
+      "F1_BCC": 0.9998527896363903,
+      "F1_SCC": 0.9994931576279777,
+      "Sens_Nevo": 0.9990479817212491,
+      "Sens_Melanoma": 0.9985114617445668,
+      "Sens_BCC": 0.9997056226081837,
+      "Sens_SCC": 1.0
+    },
+    "Validation": {
+      "n": 2156.0,
+      "accuracy": 0.8868274582560297,
+      "macro_f1": 0.8553959679786889,
+      "balanced_acc": 0.8468082725969587,
+      "bin_accuracy": 0.9359925788497218,
+      "bin_f1": 0.9465944272445821,
+      "bin_sens": 0.9502719502719502,
+      "bin_espec": 0.9148446490218642,
+      "bin_auc": 0.9683933251252009,
+      "F1_Nevo": 0.9201388888888888,
+      "F1_Melanoma": 0.861184792219275,
+      "F1_BCC": 0.9002601908065915,
+      "F1_SCC": 0.74,
+      "Sens_Nevo": 0.9148446490218642,
+      "Sens_Melanoma": 0.8528896672504378,
+      "Sens_BCC": 0.9385171790235082,
+      "Sens_SCC": 0.6809815950920245
+    },
+    "Test": {
+      "n": 2146.0,
+      "accuracy": 0.869990680335508,
+      "macro_f1": 0.8214136089491844,
+      "balanced_acc": 0.80586258430083,
+      "bin_accuracy": 0.9282385834109972,
+      "bin_f1": 0.9388888888888889,
+      "bin_sens": 0.9337016574585635,
+      "bin_espec": 0.9203640500568828,
+      "bin_auc": 0.969768149750425,
+      "F1_Nevo": 0.9130925507900677,
+      "F1_Melanoma": 0.827027027027027,
+      "F1_BCC": 0.8921484037963762,
+      "F1_SCC": 0.6533864541832669,
+      "Sens_Nevo": 0.9203640500568828,
+      "Sens_Melanoma": 0.8052631578947368,
+      "Sens_BCC": 0.94,
+      "Sens_SCC": 0.5578231292517006
+    }
+  }
+}

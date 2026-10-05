@@ -1,0 +1,12 @@
+DERMATEC — Clasificador final (ensamble Z.18 EfficientNetV2-B0 + Z.19 MobileNetV3-Large)
+
+Uso:  pip install tensorflow pillow numpy opencv-python-headless
+      python demo_inferencia.py <carpeta_con_imagenes>
+
+- No hace falta correr entrada_cnn.py antes: el redimensionado a 384 px y la capa Shades of Gray
+  ya están dentro de dermatec_inferencia.py y de los .tflite.
+- Imágenes de dermatoscopio del conjunto de datos (ISIC, HAM10000…): se usan tal cual.
+- Capturas del capilógrafo: deben tomarse con el acople de 8 cm y corregirse en color antes
+  (02_procesamiento/Calibracion); si no, el aumento y el color no coinciden con el entrenamiento.
+- CELDA_ENSAMBLE_Z18_Z19.py: celda de Kaggle/Colab que calibró el ensamble en validación
+  (sesgo por clase y umbral 0,545) y generó config_dermatec.json y las métricas de resultados/.
