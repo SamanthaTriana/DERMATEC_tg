@@ -1,0 +1,29 @@
+{
+  "acople_activo": "8 cm",
+  "acoples": {
+    "8 cm": {
+      "px_por_mm": 51.8,
+      "ancho_referencia_px": 640,
+      "estado": "estimada",
+      "fecha": null
+    },
+    "2 cm": {
+      "px_por_mm": 207.0,
+      "ancho_referencia_px": 640,
+      "estado": "estimada",
+      "fecha": null
+    },
+    "6 cm": {
+      "px_por_mm": 69.0,
+      "ancho_referencia_px": 640,
+      "estado": "estimada",
+      "fecha": null
+    },
+    "9 cm": {
+      "px_por_mm": 46.0,
+      "ancho_referencia_px": 640,
+      "estado": "estimada",
+      "fecha": null
+    }
+  }
+}

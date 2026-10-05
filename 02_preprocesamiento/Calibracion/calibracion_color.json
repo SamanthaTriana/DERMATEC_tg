@@ -1,0 +1,24 @@
+{
+  "activa": true,
+  "acople": "8 cm",
+  "fecha": "2026-10-04T18:34:21",
+  "ganancias_bgr": [
+    1.0587,
+    1.0,
+    1.0029
+  ],
+  "tamano_referencia": [
+    640,
+    480
+  ],
+  "iluminacion_esquinas_vs_centro": 0.745,
+  "fuente": {
+    "blanco": "blanco_G1.jpg",
+    "grises": [
+      "gris_1.jpg",
+      "gris_2.jpg",
+      "gris_3.jpg"
+    ]
+  },
+  "nota": "Campo plano + balance de grises en espacio lineal. Sin curva de tonos (exposición automática)."
+}
