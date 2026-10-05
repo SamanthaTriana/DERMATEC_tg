@@ -1,0 +1,56 @@
+LICENCIAS, ATRIBUCIÓN Y CITAS — DERMATEC_KAGGLE_V2
+==================================================
+
+Conjunto: DERMATEC_KAGGLE_V2 · 17.296 imágenes · 6 fuentes públicas.
+Este archivo registra las licencias de los conjuntos fuente según sus páginas oficiales. No sustituye
+sus términos ni convierte el conjunto combinado en una obra con licencia única.
+
+FUENTES INCORPORADAS
+--------------------
+Fuente                              Imágenes  Licencia      Cita / DOI
+ISIC — contacto, polarizada            3.950  CC BY-NC 4.0  Datos: 10.34970/2020-ds01 · Rotemberg et al. (2021), 10.1038/s41597-021-00815-z
+ISIC — contacto, no polarizada         3.308  CC BY-NC 4.0  Igual que la fila anterior
+ISIC — sin contacto, polarizada          749  CC BY-NC 4.0  Igual que la fila anterior
+ISIC 2019                              3.252  CC BY-NC 4.0  ISIC 2019 Training (citar BCN20000, HAM10000 y MSK según la página oficial del reto)
+MILK10k (ISIC 2025)                    2.607  CC BY-NC 4.0  Datos: 10.34970/648456 · Tschandl et al. (2026), 10.1016/j.jid.2025.06.1594
+HAM10000                               2.077  CC BY-NC 4.0  Tschandl, Rosendahl y Kittler (2018), 10.1038/sdata.2018.161
+DERM12345                              1.126  CC BY 4.0     Datos: 10.34970/705541 · Yilmaz et al. (2024), 10.1038/s41597-024-04104-3
+HIBA                                     227  CC BY 4.0     Datos: 10.34970/559884 · Ricci Lara et al. (2023), 10.1038/s41597-023-02630-0
+TOTAL                                 17.296  Licencias mixtas
+
+Nota: la licencia de cada artículo descriptor (por lo general CC BY 4.0) puede ser distinta de la
+licencia de las imágenes; la que rige el uso de las imágenes es la del conjunto de datos.
+
+FUENTE NO INCLUIDA
+------------------
+PH²: 0 imágenes en DERMATEC_KAGGLE_V2. Sus términos (Universidade do Porto) permiten uso en
+investigación y educación pero prohíben la redistribución y el uso comercial. No se incluye en el
+conjunto ni en este repositorio.
+
+CONDICIONES DE USO
+------------------
+1. Las imágenes conservan la licencia de su fuente; no se aplica una licencia única al conjunto.
+2. Uso no comercial para las fuentes CC BY-NC 4.0 (ISIC 2020/Patient-Centric, ISIC 2019, MILK10k y
+   HAM10000). Cualquier uso comercial requiere autorización de los titulares de cada fuente.
+3. Atribución: citar cada fuente usada, enlazar su licencia e indicar los cambios realizados
+   (selección, redimensionado y partición).
+4. La licencia del código de este repositorio no cambia la licencia de las imágenes ni de sus metadatos.
+5. El manifiesto (manifest_DERMATEC_KAGGLE_V2.csv) conserva la fuente de cada imagen para mantener
+   la atribución.
+
+TEXTOS OFICIALES DE LAS LICENCIAS
+---------------------------------
+CC BY 4.0:     https://creativecommons.org/licenses/by/4.0/legalcode
+CC BY-NC 4.0:  https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+PÁGINAS OFICIALES CONSULTADAS
+-----------------------------
+ISIC Challenge Datasets:   https://challenge.isic-archive.com/data/
+HAM10000 (ISIC Archive):   https://api.isic-archive.com/collections/212/
+MILK10k (ISIC Archive):    https://api.isic-archive.com/doi/milk10k/
+DERM12345 (ISIC Archive):  https://api.isic-archive.com/doi/derm12345/
+HIBA (ISIC Archive):       https://api.isic-archive.com/doi/hiba-skin-lesions/
+Descriptores: https://doi.org/10.1038/sdata.2018.161 · https://doi.org/10.1038/s41597-024-04104-3 ·
+              https://doi.org/10.1038/s41597-023-02630-0 · https://doi.org/10.1038/s41597-021-00815-z ·
+              https://doi.org/10.1016/j.jid.2025.06.1594
+Términos PH²:              https://www.fc.up.pt/addi/ph2%20database.html

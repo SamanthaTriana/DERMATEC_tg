@@ -1,0 +1,148 @@
+{
+  "name": "DERMATEC_KAGGLE_V2",
+  "version": "2.0",
+  "status": "FROZEN_MASTER_DATASET",
+  "created_at": "2026-08-26T15:25:02.267241-05:00",
+  "total_images": 17296,
+  "class_mapping": {
+    "0": "Nevo benigno",
+    "1": "Melanoma",
+    "2": "Carcinoma basocelular",
+    "3": "Carcinoma escamocelular"
+  },
+  "class_counts": {
+    "0": 7000,
+    "1": 4500,
+    "2": 4500,
+    "3": 1296
+  },
+  "split_counts": {
+    "train": 12994,
+    "validation": 2156,
+    "test": 2146
+  },
+  "split_policy": {
+    "target": "75/12.5/12.5",
+    "group_aware": true,
+    "patient_id_scope": "within_dataset_origin",
+    "lesion_id_scope": "within_dataset_origin",
+    "isic_id_scope": "global",
+    "visual_duplicate_grouping": true,
+    "test_locked": true
+  },
+  "data_policy": {
+    "original_or_canonical_images_only": true,
+    "images_resized": false,
+    "images_normalized": false,
+    "clahe_applied": false,
+    "contains_masks": false,
+    "contains_roi": false,
+    "contains_radiomics": false,
+    "contains_handcrafted_features": false,
+    "contains_precomputed_gradients": false,
+    "contains_precomputed_color_features": false
+  },
+  "metadata": {
+    "dataset_origin": true,
+    "polarization": true,
+    "contact_mode": true,
+    "patient_id_when_available": true,
+    "lesion_id_when_available": true,
+    "isic_id_when_available": true,
+    "original_image_id": true,
+    "sha256": true
+  },
+  "integrity": {
+    "unique_sha256": 17296,
+    "leak_group_id": 0,
+    "leak_patient_id_scoped": 0,
+    "leak_lesion_id_scoped": 0,
+    "leak_isic_id_global": 0
+  },
+  "polarization_counts": {
+    "Carcinoma basocelular": {
+      "Desconocida": 2805,
+      "No polarizada": 577,
+      "Polarizada": 1118
+    },
+    "Carcinoma escamocelular": {
+      "Desconocida": 408,
+      "No polarizada": 274,
+      "Polarizada": 614
+    },
+    "Melanoma": {
+      "Desconocida": 2491,
+      "No polarizada": 771,
+      "Polarizada": 1238
+    },
+    "Nevo benigno": {
+      "Desconocida": 2459,
+      "No polarizada": 1686,
+      "Polarizada": 2855
+    }
+  },
+  "contact_counts": {
+    "Carcinoma basocelular": {
+      "Con contacto": 1065,
+      "Desconocido": 3228,
+      "Sin contacto": 207
+    },
+    "Carcinoma escamocelular": {
+      "Con contacto": 491,
+      "Desconocido": 711,
+      "Sin contacto": 94
+    },
+    "Melanoma": {
+      "Con contacto": 1415,
+      "Desconocido": 2891,
+      "Sin contacto": 194
+    },
+    "Nevo benigno": {
+      "Con contacto": 4287,
+      "Desconocido": 2459,
+      "Sin contacto": 254
+    }
+  },
+  "dataset_origin_counts": {
+    "Carcinoma basocelular": {
+      "DERM12345": 423,
+      "HAM10000": 514,
+      "HIBA": 114,
+      "ISIC2019_Kaggle": 327,
+      "ISIC_contact_non_polarized": 577,
+      "ISIC_contact_polarized": 488,
+      "ISIC_non_contact_polarized": 207,
+      "MILK10k_ISIC_2025": 1850
+    },
+    "Carcinoma escamocelular": {
+      "DERM12345": 303,
+      "HAM10000": 0,
+      "HIBA": 48,
+      "ISIC2019_Kaggle": 49,
+      "ISIC_contact_non_polarized": 274,
+      "ISIC_contact_polarized": 217,
+      "ISIC_non_contact_polarized": 94,
+      "MILK10k_ISIC_2025": 311
+    },
+    "Melanoma": {
+      "DERM12345": 400,
+      "HAM10000": 1072,
+      "HIBA": 65,
+      "ISIC2019_Kaggle": 908,
+      "ISIC_contact_non_polarized": 771,
+      "ISIC_contact_polarized": 644,
+      "ISIC_non_contact_polarized": 194,
+      "MILK10k_ISIC_2025": 446
+    },
+    "Nevo benigno": {
+      "DERM12345": 0,
+      "HAM10000": 491,
+      "HIBA": 0,
+      "ISIC2019_Kaggle": 1968,
+      "ISIC_contact_non_polarized": 1686,
+      "ISIC_contact_polarized": 2601,
+      "ISIC_non_contact_polarized": 254,
+      "MILK10k_ISIC_2025": 0
+    }
+  }
+}
