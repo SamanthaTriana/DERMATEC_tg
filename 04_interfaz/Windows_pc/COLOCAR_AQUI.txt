@@ -1,0 +1,13 @@
+Esta carpeta trae solo la interfaz. Para que abra y analice, copie aquí, al lado de dermatec_app_v6.py:
+
+  De 02_procesamiento/Parametros_segmentacion_roi:  rama1_v2.py, parametros_lesion.py
+  De 02_procesamiento/Calibracion:                  calibracion_color.py, escala_acople.py,
+                                                    calibracion_color.json, calibracion_color_campo.npz,
+                                                    calibracion_escala.json
+  De 03_modelos/exportacion:                        la carpeta MODELO_DERMATEC_FINAL completa
+
+Para usar otro procesamiento u otra red, reemplace esas piezas conservando los nombres de archivo,
+las funciones (rama1_v2.segmentar_v2, parametros_lesion.calcular) y el formato de config_dermatec.json.
+La versión completa, lista para usar, está en DERMATEC_APP_WINDOWS.zip (en 04_interfaz).
+
+Windows 10/11, Python 3.11–3.13 (64 bits): ejecute INSTALAR_WINDOWS.bat una vez y abra con EJECUTAR_DERMATEC.bat.

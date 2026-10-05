@@ -1,0 +1,9 @@
+# DERMATEC App V6 — Windows 10/11, Python 3.11–3.13 (64 bits)
+# Instalar:  INSTALAR_WINDOWS.bat   (o: pip install -r requirements.txt)
+tensorflow==2.20.0      # solo se usa su intérprete TFLite para la red neuronal
+opencv-python           # cámara, Rama 1 y lectura de imágenes
+numpy
+pillow                  # interfaz, miniaturas y reporte PDF
+scikit-learn            # solo para la Rama 1 v1 (opcional, respaldo)
+comtypes                # cámara en Windows (DirectShow)
+pygrabber               # botón SNAP físico del capilógrafo (DirectShow)
