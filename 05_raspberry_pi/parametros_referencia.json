@@ -1,0 +1,75 @@
+{
+  "origen": "DERMATEC_J2_1_FINAL_CONFIG.json (dermatoscopic_parameters)",
+  "dermatoscopic_parameters": {
+    "area_relative": {
+      "display_name": "Área relativa",
+      "p05": 0.027693525461928794,
+      "p50": 0.17784512331712946,
+      "p95": 0.5252327124277749,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "circularity": {
+      "display_name": "Circularidad",
+      "p05": 0.07314502908028529,
+      "p50": 0.31983540356849427,
+      "p95": 0.5971043970712528,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "irregularity": {
+      "display_name": "Irregularidad de borde",
+      "p05": 0.40289560292874704,
+      "p50": 0.6801645964315057,
+      "p95": 0.9268549709197148,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "solidity": {
+      "display_name": "Solidez",
+      "p05": 0.5560986558247831,
+      "p50": 0.8496048306378474,
+      "p95": 0.9554307238206091,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "asymmetry_mean": {
+      "display_name": "Asimetría",
+      "p05": 0.12240783208922873,
+      "p50": 0.336445854468961,
+      "p95": 0.6736031859579763,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "uniformity": {
+      "display_name": "Uniformidad",
+      "p05": 0.008302977115234415,
+      "p50": 0.015267624906564851,
+      "p95": 0.0422351338288332,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "entropy": {
+      "display_name": "Entropía / heterogeneidad",
+      "p05": 4.889870140628951,
+      "p50": 6.263734661949439,
+      "p95": 7.072552720131572,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "contrast_lab": {
+      "display_name": "Contraste lesión-piel",
+      "p05": 7.426414752006531,
+      "p50": 31.76106357574463,
+      "p95": 75.30397796630858,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "lab_b_std": {
+      "display_name": "Variabilidad cromática",
+      "p05": 2.3380545020103454,
+      "p50": 4.608507394790649,
+      "p95": 9.353896903991698,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    },
+    "gradient_mean": {
+      "display_name": "Gradiente de borde",
+      "p05": 6.767457938194275,
+      "p50": 17.49439811706543,
+      "p95": 46.290543556213365,
+      "display_note": "El índice 0-100 representa posición relativa respecto al conjunto Train; NO es probabilidad diagnóstica."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# DERMATEC App V6 — Raspberry Pi 5 (Raspberry Pi OS 64 bits)
+ai-edge-litert          # intérprete TFLite (LiteRT) para Z.18 + Z.19
+opencv-python-headless  # cámara USB (V4L2), Rama 1 y lectura de imágenes
+numpy
+pillow                  # interfaz, miniaturas y reporte PDF
+scikit-learn            # solo para la Rama 1 v1 (respaldo)

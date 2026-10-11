@@ -1,0 +1,14 @@
+MODELO_DERMATEC_FINAL — Rama 2 (red neuronal)
+=============================================
+Contenido:
+  dermatec_inferencia.py        carga los modelos y aplica la regla de salida (incluido)
+  dermatec_parametros.py        segmentación de respaldo (incluido)
+  parametros_referencia.json    (incluido)
+  config_dermatec.json          (calibración en Validation)
+  Z.18_effnetv2b0_384px_fp16.tflite              EfficientNetV2-B0, 384 px, 11,8 MB
+  Z.19_mobilenetv3l_384px_fp16.tflite              MobileNetV3-Large, 384 px, 6,0 MB
+
+config_dermatec.json lista los .tflite, el sesgo por clase, el umbral de malignidad (0,545) y el
+control de calidad. Todo se calibró en Validation; no editar a mano.
+Respaldo si la Raspberry es lenta: dejar en "modelos" solo Z.19 (y su sesgo/umbral propios).
+  resultados/                   métricas Train/Validation/Test y matrices de confusión del ensamble

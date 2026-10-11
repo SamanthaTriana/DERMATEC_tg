@@ -1,0 +1,25 @@
+{
+  "activa": true,
+  "acople": "8 cm",
+  "fecha": "2026-10-05T09:52:58",
+  "ganancias_bgr": [
+    1.0661,
+    1.0,
+    1.0111
+  ],
+  "tamano_referencia": [
+    640,
+    480
+  ],
+  "iluminacion_esquinas_vs_centro": 0.652,
+  "fuente": {
+    "blanco": "acople8cm_G01.jpg",
+    "grises": [
+      "acople8cm_G02.jpg",
+      "acople8cm_G03.jpg",
+      "acople8cm_G04.jpg",
+      "acople8cm_G05.jpg"
+    ]
+  },
+  "nota": "Acople de 8 cm negro, primera intensidad de los LED. Campo plano (G1) + balance de grises (G2–G5) en espacio lineal. Sin curva de tonos (exposición automática)."
+}
